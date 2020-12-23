@@ -1,3 +1,8 @@
+#Dato un elenco di città, con l'indicazione per ciascuna di esse dle nome e delle temperature massima e minima registrate in un giorno, si devono contare quante città hanno superato nel giorno un valore prefissato per l'escursione termica (temperatura max-min).
+#Dopo aver chiesto il valore da controllare dell'escursione termica, per ogni città dell'elenco ripeti la richiesta dei dati (nome, tempmax e tempmin).
+#Calcola l'escursione termica e controlla se l'escursione è maggiore del valore prefissato: in questo caso,incrementa il contatore delle città selezionate.
+#Alla fine della ripetizione comunica il numero delle città registrato nel contatore.
+
 from random import randint
 listacitta=[]
 listatmax=[]
