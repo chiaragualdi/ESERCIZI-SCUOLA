@@ -1,3 +1,6 @@
+#Fornisci la rappresentazione in binario di un numero decimale.
+#Confronta il risultato con il valore ottenuto dalla funzione predefinita del linguaggio per convertire un numero decimale in binario.
+
 print("Inserisci il valore del numero che vuoi trasformare:")
 numero=int(input())
 numerobinario=[]
