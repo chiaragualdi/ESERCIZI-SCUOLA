@@ -1,3 +1,6 @@
+#I dati relativi al numero dei veicoli transitati in entrata a un casello autostradale sono inseriti, giorno per giorno, con una ripetizione che termina quando si inserisce 0 come segnalazione della fine dell'input dei dati.
+#Comunica il totale dei veicoli transitati nel periodo considerato.
+
 lista_veicoli = []
 count = True
 ngiorni = 0
