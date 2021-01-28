@@ -10,12 +10,12 @@ while True:
     if nazione in listanaz:
         i = listanaz.index(nazione)
         print(listacap[i])
-        print("Per smettere di controllare le nazioni premere 0, per continuare digitare qualsiasi altro tasto: ")
+        print("Per smettere di controllare le nazioni premere stop, per continuare digitare qualsiasi altro tasto: ")
         ripetitore = input()
-        if ripetitore == "0":
+        if ripetitore == "stop":
             break
     else:
-        print(nazione, "Non è nell'elenco delle nazioni registrate. Per smettere di controllare le nazioni premere 0, per ricominciare digitare qualsiasi altro tasto: ")
+        print(nazione, "Non è nell'elenco delle nazioni registrate. Per smettere di controllare le nazioni premere stop, per ricominciare inserire qualsiasi altro tasto: ")
         ripetitore2 = input()
-        if ripetitore2 == "0":
+        if ripetitore2 == "stop":
             break
